@@ -13,10 +13,11 @@ library(ggplot2)
   ) +
   theme_minimal()
 
-ggsave(
-  filename = "10272026ICA17",
-  plot = p,
-  width = 8,
-  height = 6,
-  dpi = 300
-)
+ ggsave(
+   filename = "ICA17.png",
+   plot = p,
+   width = 8,
+   height = 6,
+   dpi = 300
+ )
+ 
